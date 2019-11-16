@@ -1,0 +1,103 @@
+/* Write some CSS below */
+
+body {
+	background-color: rgb(240, 240, 240);
+}
+h1 {
+	color: #9656a1;
+	font-family: 'Lobster Two', cursive;
+	text-align: center;
+	letter-spacing: 5px;
+	font-weight: 800;
+}
+
+h1:hover {
+	color: purple;
+}
+
+h2 {
+	color: #594a4e;
+	font-family: 'Dancing Script', cursive;
+	background-color: #antiquewhite;
+	font-size: 28px;
+	text-align: center;
+	font-weight: 500;
+}
+
+p {
+	font-family: 'Dancing Script', cursive;
+	font-size: 20px;
+	background-color #ffcoad;
+	font-weight: 400;
+}
+
+footer {
+	background-color: #c2b0c9;
+}
+
+.banner {
+	background-image: url(https://images.unsplash.com/photo-1548199973-03cce0bbc87b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
+	background-position: center;
+	text-align: center;
+	padding: 50px;
+}
+
+.banner img {
+	height: 200px;
+	width: 800px;
+	object-fit: cover;
+}
+
+.banner h1 {
+	color: #5f6769;
+}
+.banner p {
+	color: white;
+	font-size: 24px;
+}
+.btn-mint {
+	color: grey;
+	background-color: antiquewhite;
+    padding: 8px 24px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.btn-mint:hover {
+	color: antiquewhite;
+	background-color: grey;
+}
+
+.container {
+	width: 700px;
+	margin: 10px auto;
+	text-align: center;
+}
+
+.card-white {
+	background-color: antiquewhite;
+	width: 200px;
+	height: 200px;
+    padding: 12px;
+    margin: 10px;
+    border-radius: 4px;
+    box-shadow: 2px 3px 20px;
+}
+
+.card-white img {
+	height: 150px;
+	width: 150px;
+	align-content: center;
+	object-fit: cover;
+}
+
+.cards {
+	display: flex;
+	justify-content: space-around;
+}
+
+.footer {
+	background-color: antiquewhite;
+	color: grey;
+	text-align: center;
+}
